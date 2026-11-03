@@ -1,0 +1,25 @@
+{
+    "samples": {
+        "sample_01": ["/path/to/sample_01_R1.fastq.gz", "/path/to/sample_01_R2.fastq.gz"],
+        "sample_02": ["/path/to/sample_02_R1.fastq.gz", "/path/to/sample_02_R2.fastq.gz"]
+    },
+    "contigs_db": {
+        "contigs": "/path/to/contigs.fa",
+        "project_name": "MY_PROJECT"
+    },
+    "mapping": {
+        "bowtie2": {
+            "additional_params": "--very-sensitive"
+        }
+    },
+    "profile_db": {
+        "merge": {
+            "description": "Merged profile for MY_PROJECT"
+        }
+    },
+    "binning": {
+        "concoct": {
+            "cluster_contigs": true
+        }
+    }
+}

@@ -1,0 +1,64 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Anvi'o database files (not for version control)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# BAM/SAM files
+*.bam
+*.bam.bai
+*.sam
+
+# FASTA/FASTQ files (large, not for version control)
+*.fasta
+*.fa
+*.fna
+*.fq
+*.fastq
+*.fq.gz
+*.fastq.gz
+*.fa.gz
+*.fasta.gz
+
+# Anvi'o output directories
+SUMMARY/
+MERGED_PROFILE/
+PROFILE*/
+GENES*/
+AUXILIARY-DATA*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Snakemake
+.snakemake/
+*.snakefile.bak
+
+# Conda / virtual environments
+.conda/
+venv/
+env/

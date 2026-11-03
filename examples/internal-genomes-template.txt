@@ -1,0 +1,4 @@
+name	bin_id	collection_id	profile_db_path	contigs_db_path
+MAG_01	Bin_01	MY_COLLECTION	/path/to/PROFILE.db	/path/to/contigs.db
+MAG_02	Bin_02	MY_COLLECTION	/path/to/PROFILE.db	/path/to/contigs.db
+MAG_03	Bin_03	MY_COLLECTION	/path/to/PROFILE.db	/path/to/contigs.db

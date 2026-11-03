@@ -1,0 +1,4 @@
+name	contigs_db_path
+Genome_01	/path/to/genome_01.db
+Genome_02	/path/to/genome_02.db
+Genome_03	/path/to/genome_03.db
